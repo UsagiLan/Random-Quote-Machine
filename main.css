@@ -1,0 +1,106 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color : #18a689;
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+/*    font-weight:400;*/
+
+}
+.quote-box{
+    position :relative;
+    width : 550px;
+    min-height: 200px;
+    height:auto;
+    background-color : white;
+    border-radius: 2%;
+    margin: 100px auto 10px auto;
+    overflow: auto;
+}
+.quote-text{
+
+    width : 405px;
+    color: #18a689;
+    margin: 30px auto 100px auto;
+    text-align: center;
+
+
+}
+.quote-text span#text {
+    font-size:2.1em;
+    font-weight: bold;
+    font-family: 'Georgia';
+    text-align: center;
+}
+.quote-text span#author-name {
+    font-size:1.1em;
+    font-family: 'Georgia';
+    text-align: center;
+}
+.quote-text i{
+    font-size:2.5em;
+    margin-right: 0.4em;
+}
+.author{
+    text-align: right;
+    margin: 20px auto 0px;
+}
+.transmit-bar{
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+}
+.quote-box .transmit-bar .button{
+    background-color: #18a689;
+    padding: 8px 4px;
+    text-align: center;
+    border-radius: 3px;
+    color : white;
+    font-family: 'Raleway';
+}
+#sina-quote{
+    position: relative;
+    width: 40px;
+    float: left;
+    left: 72px;
+}
+#tencent-quote{
+    position: relative;
+    width: 40px;
+    float: left;
+    left: 85px;
+}
+#new-quote{
+    position: relative;
+    line-height: 30px;
+    float: right;
+    right: 72px;
+    padding: 8px 20px;
+    font-weight: bold;
+}
+.button i {
+    font-size: 30px;
+
+}
+a.button{
+    cursor: pointer;
+}
+.button:hover{
+    opacity: 0.8;
+}
+.footer{
+    text-align: center;
+    margin: 10px auto;
+    font-size: 13px;
+    color: white;
+}
+.footer a{
+    color: white;
+}
